@@ -1,0 +1,31 @@
+Test R Presentation
+========================================================
+author: Raul Martins
+date: `r date()` 
+
+First Slide
+========================================================
+transition: rotate
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1
+- Bullet 2
+
+$X^2$
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
